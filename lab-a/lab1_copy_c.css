@@ -1,0 +1,137 @@
+body {
+    font-family: "Tahoma", sans-serif;
+    margin: 0px;
+    text-align: center;
+    background-color: #578485;
+}
+
+
+section, footer{
+    padding: 8px;
+}
+
+header, footer{
+    text-align: center;
+}
+
+header {
+    background-image: url("tło.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 200px;
+}
+
+
+footer{
+    border: 3px solid black;
+    padding: 30px;
+    text-align: center;
+    background-color: #FCE573;
+}
+
+h1 {
+    font-family: "Alien Encounters";
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 25px;
+    color: black;
+    overflow: visible;
+    position: relative;
+    z-index: 10;
+}
+
+section{
+    color: black;
+    text-align: center;
+}
+
+h2,h3 {
+    color: black;
+}
+
+
+section img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+    border: 5px solid red;
+    border-radius: 10px;
+    animation: borderChange 4s infinite;
+}
+
+@keyframes borderChange {
+    0% {
+        border-color: red;
+    }
+    50% {
+        border-color: blue;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+li{
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+#myUL{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+@keyframes oscylacja {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    animation: oscylacja 3s ease-in-out infinite;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px){
+    table{
+        font-size: 0.9rem;
+    }
+    section{
+        padding: 10px;
+    }
+}
+

@@ -1,0 +1,59 @@
+body{
+    font-family: "Candara", sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+header, footer{
+    background-color: #FCE573;
+    padding: 15px;
+    text-align: center;
+}
+
+footer{
+    border: 3px solid black;
+    padding: 30px;
+    text-align: center;
+
+}
+
+h1{
+    font-family: "Forte";
+}
+
+h1,h2,h3{
+    color: #000000;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+section{
+    background-color: #FDEDED;
+    border: 1px solid #FFFFFF;
+    padding: 8px;
+}
+
+ul{
+    list-style-type: square;
+    color: red;
+    margin-left: 20px;
+}
+
+img{
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 768px){
+    table{
+        font-size: 0.9rem;
+    }
+    section{
+        padding: 10px;
+    }
+}
+
