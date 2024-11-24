@@ -1,0 +1,147 @@
+body{
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-image: url("clouds_r.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.weather-app {
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-section {
+    margin-top: 20px;
+}
+
+
+#current-weather, #forecast-weather {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#current-weather {
+    background: linear-gradient(to right, #d0e8ff, #a3d8f7);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+#forecast-weather {
+    background: linear-gradient(to right, #fef9e7, #f8d68b);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.weather-item {
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    margin: 15px 0;
+}
+
+#current-weather h3, #forecast-weather h3 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+
+}
+
+#current-weather h3 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#forecast-weather h3 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.weather-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e6f7ff;
+}
