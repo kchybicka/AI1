@@ -1,0 +1,7 @@
+{
+    "bowserWindow":{
+        "width": 512,
+        "height": 600,
+        "autoHideMenuBar": true
+    }
+}
